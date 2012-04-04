@@ -1,0 +1,4 @@
+
+				<%=link_to image_tag(@client.profile_image_url),"#{@client.screen_name}",{:style=> 'color:#1212DE;':target => "blank"}%>
+
+
